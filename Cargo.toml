@@ -1,0 +1,12 @@
+[package]
+name = "sugg"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ruff_text_size = { git = "https://github.com/astral-sh/ruff", package = "ruff_text_size" }
+ruff_python_ast = { git = "https://github.com/astral-sh/ruff", package = "ruff_python_ast" }
+ruff_python_parser = { git = "https://github.com/astral-sh/ruff", package = "ruff_python_parser" }
+
+[dev-dependencies]
+indoc = "2.0.6"
